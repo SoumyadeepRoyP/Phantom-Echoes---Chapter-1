@@ -544,17 +544,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraTransform: {fileID: 1233508027}
-  SpeedBoost: 2
-  CrouchSpeedMultiplier: 0.5
-  Speed: 5
+  headBobJoint: {fileID: 1276064210}
+  uiManager: {fileID: 49504937}
+  baseSpeed: 5
+  sprintMultiplier: 1.5
+  crouchMultiplier: 0.5
+  jumpHeight: 0
   gravity: -9.81
   mouseSensitivity: 1
-  IsPaused: 0
-  uiManager: {fileID: 49504937}
-  jumpHeight: 0
-  joint: {fileID: 1276064210}
   bobSpeed: 10
   bobAmount: {x: 0.1, y: 0.1}
+  isPaused: 0
 --- !u!114 &205905527
 MonoBehaviour:
   m_ObjectHideFlags: 0
